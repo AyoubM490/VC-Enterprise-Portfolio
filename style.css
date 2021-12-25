@@ -1,0 +1,173 @@
+@font-face {
+  font-family: "Lexend Mega";
+  src: url("https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 22px;
+  font-family: "Lexend Mega", sans-serif;
+}
+
+header {
+  background: white;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  font-size: 1.1rem;
+  margin-top: 50px;
+}
+
+header h1 {
+  margin-bottom: 50px;
+}
+
+nav {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+nav a {
+  color: black;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+[href*="portfolio"] {
+  margin-right: 15px;
+  margin-left: 20px;
+}
+
+#mission {
+  background-image: url("https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg");
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  height: 300px;
+  margin-top: 70px;
+  /* text-align: center; */
+}
+
+.mission {
+  background-color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.mission h2 {
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.mission h3 {
+  padding-bottom: 10px;
+}
+
+#portfolio {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 1.1rem;
+}
+
+#portfolio h2 {
+  margin-bottom: 20px;
+}
+
+#portfolio h3 {
+  margin-bottom: 20px;
+}
+
+.portfolio {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+img {
+  height: 150px;
+  width: 230px;
+  margin-top: 25px;
+}
+
+figure {
+  display: flex;
+  align-items: center;
+}
+
+.portfolio figure figcaption {
+  margin-left: 50px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+#team {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 15px;
+}
+
+.team {
+  background-image: url("https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg");
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  /* background-size: cover; */
+  color: white;
+  display: flex;
+  justify-content: center;
+  height: 520px;
+  opacity: 0.9;
+}
+
+.team figure {
+  display: flex;
+  flex-flow: column;
+  flex-basis: 280px;
+  margin-right: 50px;
+  margin-left: 50px;
+  opacity: 1;
+}
+
+.team figure img {
+  height: 350px;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contact h2 {
+  margin-bottom: 50px;
+  font-size: 1.7rem;
+}
+
+.contact p {
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.copyright {
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
